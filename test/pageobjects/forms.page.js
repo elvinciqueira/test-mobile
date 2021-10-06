@@ -12,9 +12,7 @@ class FormsPage {
   }
 
   get #getDropdownItem() {
-    return $(
-      '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[4]'
-    );
+    return $('//android.widget.CheckedTextView[4]');
   }
 
   get #dropdownItems() {
